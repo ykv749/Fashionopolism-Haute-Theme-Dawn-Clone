@@ -1,0 +1,96 @@
+{% if section.blocks.size > 0 %}
+  <div class="logo-list logo-list--{{ section.id }}">
+    {% if section.settings.heading_text != blank %}
+      <div class="logo-list__heading-text">
+        <h2>{{ section.settings.heading_text }}</h2>
+      </div>
+    {% endif %}
+
+    <div class="logo-list__logo-item">
+      {% for block in section.blocks %}
+        {% if block.settings.logo_img != blank and block.settings.logo_link != blank %}
+          <div class="logo-item__logo-content">
+            <a href="{{ block.settings.logo_link }}">
+              {%- render 'image',
+                class: 'media--landscape',
+                mobileSrc: block.settings.logo_img,
+                desktopSrc: block.settings.logo_img
+              -%}
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% style %}
+  .logo-list__logo-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 15px 0;
+  }
+
+  .logo-list--{{ section.id }}{
+    background: {{ section.settings.section_background }}
+  }
+
+  .logo-list__heading-text {
+    padding: 10px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo-list__logo-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Logo List",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading",
+      "default": "Logo List"
+    }, {
+      "type": "color",
+      "id": "section_background",
+      "label": "Section Background",
+      "default": "#C5C5C5"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Logo List Item",
+      "type": "logo-list",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Logo List Settings"
+        }, {
+          "type": "image_picker",
+          "id": "logo_img",
+          "label": "Image"
+        }, {
+          "type": "url",
+          "id": "logo_link",
+          "label": "Logo link"
+        }
+      ]
+    }
+
+  ],
+  "presets": [
+    {
+      "name": "Logo List"
+    }
+  ]
+}
+{% endschema %}

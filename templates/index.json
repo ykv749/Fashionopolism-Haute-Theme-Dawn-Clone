@@ -1,0 +1,570 @@
+{
+  "sections": {
+    "477155e8-78e3-45c9-a8f0-4f14d0171898": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17440426557742__477155e8-78e3-45c9-a8f0-4f14d0171898-16726599234f822340-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide1_98848136-1d9e-4782-b63d-19ba0f08a84e.webp",
+            "heading": "NEW PRINTS & PATTERNS",
+            "heading_size": "h1",
+            "subheading": "SEE THE FULL RANGE",
+            "button_label": "SHOP PATTERNS",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17440426557742__477155e8-78e3-45c9-a8f0-4f14d0171898-16726599234f822340-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide2_5e713723-7034-48cf-b23b-b679a9d56fbb.webp",
+            "heading": "STEP INTO SUMMER",
+            "heading_size": "h1",
+            "subheading": "A LOOK AT OUR FRESHEST FINDS",
+            "button_label": "SHOP SUMMER",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__477155e8-78e3-45c9-a8f0-4f14d0171898-16726599234f822340-0",
+        "template--17440426557742__477155e8-78e3-45c9-a8f0-4f14d0171898-16726599234f822340-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "94958a13-d85a-4e9b-b4ae-644938150fe8": {
+      "type": "image-columns",
+      "blocks": {
+        "13476e23-8122-44a1-8477-829dbed72996": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery__image-one.webp",
+            "image_mobile": "shopify:\/\/shop_images\/gallery__image-one.webp",
+            "image_link": "shopify:\/\/collections\/new-arrials",
+            "heading_text": "NEW ARRIVALS",
+            "button_text": "EXPLORE"
+          }
+        },
+        "d2b09993-1fda-4e8f-962b-c9f5afa334fe": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery__image-three.webp",
+            "image_mobile": "shopify:\/\/shop_images\/gallery__image-three_ff640c1f-1448-4767-939f-0388d593b4d9.webp",
+            "image_link": "shopify:\/\/collections\/soire-ready",
+            "heading_text": "SOIRE READY",
+            "button_text": "EXPLORE"
+          }
+        },
+        "830ffbea-3df7-4d74-869a-db75ce4e1941": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery__image-two.webp",
+            "image_mobile": "shopify:\/\/shop_images\/gallery__image-two.webp",
+            "image_link": "shopify:\/\/collections\/accessories",
+            "heading_text": "ACCESSORIES",
+            "button_text": "EXPLORE"
+          }
+        }
+      },
+      "block_order": [
+        "13476e23-8122-44a1-8477-829dbed72996",
+        "d2b09993-1fda-4e8f-962b-c9f5afa334fe",
+        "830ffbea-3df7-4d74-869a-db75ce4e1941"
+      ],
+      "settings": {
+        "show_mobile_slider": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_shape": "landscape"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Looks",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    },
+    "4cf6ee25-db38-4c19-841c-840d4a744afd": {
+      "type": "image-gallery",
+      "blocks": {
+        "932556b0-7995-4fea-9da8-5e20d82950b2": {
+          "type": "image-gallery",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/IG1_12ac10e9-466c-48c9-8076-25fe54556cab.webp",
+            "image_mobile": "shopify:\/\/shop_images\/IG1_12ac10e9-466c-48c9-8076-25fe54556cab.webp",
+            "tagline": "JUST IN",
+            "desc": "<p>A collection of our latest arrivals<\/p>",
+            "btn_text": "SHOP NEW",
+            "btn_link": "shopify:\/\/collections"
+          }
+        },
+        "9db3a466-9bde-4418-ab8f-9aeaff61d008": {
+          "type": "image-gallery",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/IG2.webp",
+            "image_mobile": "shopify:\/\/shop_images\/IG2.webp",
+            "tagline": "DRESSES",
+            "desc": "<p>Find the perfect dress<\/p>",
+            "btn_text": "SHOP DRESSES",
+            "btn_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "932556b0-7995-4fea-9da8-5e20d82950b2",
+        "9db3a466-9bde-4418-ab8f-9aeaff61d008"
+      ],
+      "settings": {
+        "heading_text_color": "#ffffff",
+        "paragraph_text_color": "#ffffff"
+      }
+    },
+    "d2697012-3a75-404b-97cf-21e61db53ba3": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "playsuits-jumpsuits"
+          }
+        },
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "d2e99be4-eaf5-4981-a31c-682537cdaf58": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sale"
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-0",
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-1",
+        "template--17440426557742__d2697012-3a75-404b-97cf-21e61db53ba3-1672660415df5408a9-2",
+        "d2e99be4-eaf5-4981-a31c-682537cdaf58"
+      ],
+      "settings": {
+        "title": "SHOP BY COLLECTION",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9d7ef354-b6e0-4850-a160-f2844e2c122f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ACCESSORIZE IN STYLE",
+            "heading_size": "h1"
+          }
+        },
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-1": {
+          "type": "text",
+          "settings": {
+            "text": "FIND YOUR LOOK IN OUR CAREFULLY CURATED COLLECTIONS",
+            "text_style": "body"
+          }
+        },
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP ALL",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-0",
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-1",
+        "template--17440426557742__9d7ef354-b6e0-4850-a160-f2844e2c122f-16727275024f8e6301-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image__with__text-overlay_6b1aadff-582e-4b3e-868c-bdc41dd17161.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "text_color": "#ffffff"
+      }
+    },
+    "6731aeb4-fdfa-4b6e-8a67-7d6d8418ab9b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLING",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-products-1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "eb9edcc8-79de-44b9-be89-9bc9f47dbf7b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-0": {
+          "type": "column",
+          "settings": {
+            "title": "FREE SHIPPING",
+            "text": "<p>Spend $100 and receive Free 2 day shipping.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-1": {
+          "type": "column",
+          "settings": {
+            "title": "FLEXIBLE PAYMENTS",
+            "text": "<p>Spread your purchase with 4 easy payments<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-2": {
+          "type": "column",
+          "settings": {
+            "title": "FREE RETURNS",
+            "text": "<p>Buy in confidence with no-hassle returns<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-0",
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-1",
+        "template--17440426557742__eb9edcc8-79de-44b9-be89-9bc9f47dbf7b-1673179983f1a74460-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2468f53d-f9a1-44df-89bb-d6faeb9720be": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR FAVORITE DRESSES",
+            "heading_size": "h2"
+          }
+        },
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take a peek at our newly added Dresses for Summer! Get in quick as these hot items are sure to move fast!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP DRESSES",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-0",
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-1",
+        "template--17440426557742__2468f53d-f9a1-44df-89bb-d6faeb9720be-16726794866046b232-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image__with__text1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7a4231b9-8d90-43da-b3c0-2691d4a5a9a0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l2.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l3.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f08f57f-dfac-418b-b7a8-7cd69b6ffd84": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l6_6f9be4c9-e82a-44cd-bfe2-c0c46bc40a0d.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "db235107-5d80-4f42-aaf3-54fdae69bc3e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l5.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3ce35e3-d271-44e5-a3e5-9fbb521e984f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l7.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-0",
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-1",
+        "template--17440426557742__7a4231b9-8d90-43da-b3c0-2691d4a5a9a0-16728081207c291678-2",
+        "7f08f57f-dfac-418b-b7a8-7cd69b6ffd84",
+        "db235107-5d80-4f42-aaf3-54fdae69bc3e",
+        "c3ce35e3-d271-44e5-a3e5-9fbb521e984f"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "de25daed-0156-4293-b27d-2eb0bb3a5f08": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get In the Know",
+            "heading_size": "h1"
+          }
+        },
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-0",
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-1",
+        "template--17440426557742__de25daed-0156-4293-b27d-2eb0bb3a5f08-1672663562baa9fc7a-2"
+      ],
+      "settings": {
+        "show_social": true,
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "dfdce099-9a38-4ea2-a810-618ad74d946b": {
+      "type": "All_Input_Settings",
+      "disabled": true,
+      "settings": {
+        "article": "",
+        "blog": "",
+        "collection": "",
+        "collection_list": [
+
+        ],
+        "body_text": "#000000",
+        "background": "linear-gradient(#ffffff, #000000)",
+        "heading_font": "helvetica_n4",
+        "video_embed": "",
+        "inline": "my <i>inline<\/i> <b>text<\/b>",
+        "menu": "",
+        "battery_message": "{% if product.tags contains 'battery' %}This product can only be shipped by ground.{% else %}This product can be shipped by ground or air.{% endif %}",
+        "message": "Hello {{ not_a_real_tag }}, welcome to our shop.",
+        "page": "",
+        "product": "",
+        "product_list": [
+
+        ],
+        "paragraph": "",
+        "button_link": "",
+        "product_description_video": "",
+        "enable_payment_button": true
+      }
+    },
+    "056d50a9-6f06-4bb1-8384-5bded89288f1": {
+      "type": "news_letter",
+      "settings": {
+        "heading": "Subscribe to our emails",
+        "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+        "show_social": true,
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "477155e8-78e3-45c9-a8f0-4f14d0171898",
+    "94958a13-d85a-4e9b-b4ae-644938150fe8",
+    "featured_collection",
+    "4cf6ee25-db38-4c19-841c-840d4a744afd",
+    "d2697012-3a75-404b-97cf-21e61db53ba3",
+    "9d7ef354-b6e0-4850-a160-f2844e2c122f",
+    "6731aeb4-fdfa-4b6e-8a67-7d6d8418ab9b",
+    "eb9edcc8-79de-44b9-be89-9bc9f47dbf7b",
+    "2468f53d-f9a1-44df-89bb-d6faeb9720be",
+    "7a4231b9-8d90-43da-b3c0-2691d4a5a9a0",
+    "de25daed-0156-4293-b27d-2eb0bb3a5f08",
+    "dfdce099-9a38-4ea2-a810-618ad74d946b",
+    "056d50a9-6f06-4bb1-8384-5bded89288f1"
+  ]
+}

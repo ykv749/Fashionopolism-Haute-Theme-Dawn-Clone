@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "e9c421ad-483d-418a-83c2-4aa475cbaabc": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SALE now on",
+            "heading_size": "h2"
+          }
+        },
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-1": {
+          "type": "text",
+          "settings": {
+            "text": "Shop our mid Season sale for a range of discounted items",
+            "text_style": "body"
+          }
+        },
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP SALE",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-0",
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-1",
+        "template--17440426328366__e9c421ad-483d-418a-83c2-4aa475cbaabc-1672998526d5f21f12-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sale.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "text_color": "#e22120"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "50a940b6-b33e-477b-be38-3417ac5379f5": {
+      "type": "image-columns",
+      "blocks": {
+        "01585503-6ab3-40c8-8d15-0642a4cdd39f": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash___tamara-bellis-0C2qrwkR1dI-unsplash_e2c8c6ee-b430-45d7-8b55-5d911a8a2b6d.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash___tamara-bellis-0C2qrwkR1dI-unsplash_e2c8c6ee-b430-45d7-8b55-5d911a8a2b6d.webp",
+            "image_link": "shopify:\/\/collections",
+            "heading_text": "NEW ARRIVALS",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "c7427a33-9f92-42ff-acb6-de86ef006c3b": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash__jonathan-borba-XJt51hAa3z8-unsplash.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash__jonathan-borba-XJt51hAa3z8-unsplash.webp",
+            "image_link": "shopify:\/\/collections",
+            "heading_text": "DRESSES",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "b1072ac3-266a-4866-bc96-06d8473ade98": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash___vanessa-serpas-U0m4t8tD8Sk-unsplashjpg_e4b7c387-0352-431b-a109-acc91fd796fa.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash___vanessa-serpas-U0m4t8tD8Sk-unsplashjpg.webp",
+            "image_link": "shopify:\/\/collections",
+            "heading_text": "ACCESSORIES",
+            "button_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "01585503-6ab3-40c8-8d15-0642a4cdd39f",
+        "c7427a33-9f92-42ff-acb6-de86ef006c3b",
+        "b1072ac3-266a-4866-bc96-06d8473ade98"
+      ],
+      "settings": {
+        "show_mobile_slider": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_shape": "square"
+      }
+    },
+    "f3b53925-a3b9-4257-bb57-22b2a54eee77": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET IN THE KNOW",
+            "heading_size": "h1"
+          }
+        },
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>"
+          }
+        },
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-0",
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-1",
+        "template--17440426328366__f3b53925-a3b9-4257-bb57-22b2a54eee77-167276608535b9f4a4-2"
+      ],
+      "settings": {
+        "show_social": true,
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7661ed01-552b-42cf-833a-3c79493aa3ab": {
+      "type": "news_letter",
+      "settings": {
+        "heading": "Subscribe to our emails",
+        "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+        "show_social": true,
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "e9c421ad-483d-418a-83c2-4aa475cbaabc",
+    "product-grid",
+    "50a940b6-b33e-477b-be38-3417ac5379f5",
+    "f3b53925-a3b9-4257-bb57-22b2a54eee77",
+    "7661ed01-552b-42cf-833a-3c79493aa3ab"
+  ]
+}

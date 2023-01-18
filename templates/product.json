@@ -1,0 +1,259 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "9f7fd5f7-c79b-41f4-8a11-0d7363f45915": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 17,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "9f7fd5f7-c79b-41f4-8a11-0d7363f45915",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "columns",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "ae10ceb8-88cf-4a45-aef8-bb2412b65ad4": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You Might Like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "product-upsell": {
+      "type": "marmeto-upsell",
+      "settings": {
+        "enable_product_upselling": true,
+        "title": "Upsell Products"
+      }
+    },
+    "2f2baf5f-7d84-4a7b-a5da-bb329023ea4c": {
+      "type": "image-columns",
+      "blocks": {
+        "345e85da-eb1e-472a-9585-ebbf50d1ffa4": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash___tamara-bellis-0C2qrwkR1dI-unsplash.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash___tamara-bellis-0C2qrwkR1dI-unsplash_e2c8c6ee-b430-45d7-8b55-5d911a8a2b6d.webp",
+            "image_link": "shopify:\/\/collections\/all-products-for-dawn-fashnopolism",
+            "heading_text": "DRESSES",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "cb156429-98c2-493e-8086-a67c18e86314": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash__jonathan-borba-XJt51hAa3z8-unsplash_0e9be585-acce-4a6b-b445-fd2b24be325c.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash__jonathan-borba-XJt51hAa3z8-unsplash.webp",
+            "image_link": "shopify:\/\/collections\/all-products-for-dawn-fashnopolism",
+            "heading_text": "LATEST DROP",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "eda94472-b34f-4042-b1a1-ab7b0fbfe13e": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fash___vanessa-serpas-U0m4t8tD8Sk-unsplashjpg.webp",
+            "image_mobile": "shopify:\/\/shop_images\/fash___vanessa-serpas-U0m4t8tD8Sk-unsplashjpg_e4b7c387-0352-431b-a109-acc91fd796fa.webp",
+            "image_link": "shopify:\/\/collections\/all-products-for-dawn-fashnopolism",
+            "heading_text": "ACCESSORIES",
+            "button_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "345e85da-eb1e-472a-9585-ebbf50d1ffa4",
+        "cb156429-98c2-493e-8086-a67c18e86314",
+        "eda94472-b34f-4042-b1a1-ab7b0fbfe13e"
+      ],
+      "settings": {
+        "show_mobile_slider": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_shape": "square"
+      }
+    },
+    "aac152a5-ed31-4e07-bb52-1d84c805b9f2": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET IN THE KNOW",
+            "heading_size": "h1"
+          }
+        },
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Signup for our newsletter to stay up to date on sales and events.<\/p>"
+          }
+        },
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-0",
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-1",
+        "template--17440426459438__aac152a5-ed31-4e07-bb52-1d84c805b9f2-167276668672d77b44-2"
+      ],
+      "settings": {
+        "show_social": true,
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c95a6c49-9cb5-41e9-8934-898d14ac993a": {
+      "type": "news_letter",
+      "settings": {
+        "heading": "Subscribe to our emails",
+        "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+        "show_social": true,
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ae10ceb8-88cf-4a45-aef8-bb2412b65ad4",
+    "product-recommendations",
+    "product-upsell",
+    "2f2baf5f-7d84-4a7b-a5da-bb329023ea4c",
+    "aac152a5-ed31-4e07-bb52-1d84c805b9f2",
+    "c95a6c49-9cb5-41e9-8934-898d14ac993a"
+  ]
+}

@@ -1,0 +1,25 @@
+.image-columns__item {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.image-columns__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-columns__overlay > * {
+  color: #ffffff;
+}
+
+.image-columns__item:hover .media--hover {
+  transform: scale(1.05);
+}

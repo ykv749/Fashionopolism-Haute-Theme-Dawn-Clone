@@ -1,0 +1,138 @@
+{% if section.blocks.size > 0 %}
+  <div class="usp-section container" style="background: #2D2D2D; padding:30px;">
+    <div data-flickity='{ "cellAlign": "center", "contain": true, "pageDots": false, "prevNextButtons": false, "imagesLoaded": false }'>
+      {% for block in section.blocks %}
+        <div class="flexbox-item">
+          <div class="usp-item">
+            {% if block.settings.logo != blank %}
+              <div class="usp-item__logo">
+                {% render 'image',
+                  class: 'media media--square',
+                  mobileSrc: block.settings.logo,
+                  desktopSrc: block.settings.logo
+                %}
+              </div>
+            {% endif %}
+            <div class="usp-item__content">
+              {% if block.settings.heading_text != blank %}
+                <div class="usp-item__heading h5 heading-{{ block.id }}" style="color: white; font-size:24px;">{{ block.settings.heading_text }}</div>
+              {% endif %}
+              {% if block.settings.sub_heading_text != blank %}
+                <div class="usp-item__sub-heading sub-heading-{{ block.id }}" style="color: white; font-size:15px;">
+                  {{ block.settings.sub_heading_text }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% style %}
+  {% for block in section.blocks %}
+    .heading-{{ block.id }}{
+      color: {{ block.settings.heading_text_color }}
+      ;
+      text-align: center;
+    }
+    .sub-heading-{{ block.id }}{
+      color: {{ block.settings.sub_heading_text_color}}
+      ;
+    text-align: center;
+    }
+
+  {% endfor %}
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "USP Section",
+  "tag": "section",
+  "class": "homepage-section",
+  "blocks": [
+    {
+      "name": "Usp item",
+      "type": "usp-item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "LOGO SETTINGS"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        }
+        ,
+        {
+          "type": "header",
+          "content": "HEADING SETTINGS"
+        },
+        {
+          "type": "richtext",
+          "id": "heading_text",
+          "label": "Heading text",
+          "default": "<p>Heading text</p>"
+        }, {
+          "type": "color",
+          "id": "heading_text_color",
+          "label": "Color",
+          "default": "#000000"
+        }, {
+          "type": "header",
+          "content": "SUB HEADING SETTINGS"
+        }, {
+          "type": "richtext",
+          "id": "sub_heading_text",
+          "label": "Sub heading text",
+          "default": "<p>Sub heading text</p>"
+        }, {
+          "type": "color",
+          "id": "sub_heading_text_color",
+          "label": "Color",
+          "default": "#000000"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "USP Section"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .flexbox {
+    flex-direction: column;
+  }
+  .usp-section .flexbox-item {
+    width: 50%;
+  }
+  .usp-item {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .usp-item__logo {
+    width: 50px;
+    height: 40px;
+    margin: 15px auto;
+  }
+  .usp-item__heading p,
+  .usp-item__sub-heading p {
+    margin: 0 0 5px;
+  }
+  @media only screen and (min-width: 990px) {
+    .usp-section .flexbox-item {
+      width: 25%;
+      padding: 20px;
+    }
+    .flexbox {
+      flex-direction: row;
+    }
+  }
+{% endstylesheet %}

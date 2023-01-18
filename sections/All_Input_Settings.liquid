@@ -1,0 +1,205 @@
+<div>
+  
+  <div>
+    {{ section.settings.article }}
+  </div>
+  
+  <div>
+    {{ section.settings.blog }}
+  </div>
+  
+  <div>
+    {{ section.settings.collection }}
+  </div>
+  <div>
+    {{ section.settings.collection_list }}
+  </div>
+  
+  <div>
+    {{ section.settings.body_text }}
+  </div>
+  
+  <div>
+    {{ section.settings.background }}
+  </div>
+  
+  <div>
+    {{ section.settings.heading_font }}
+  </div>
+  
+  <div>
+    {{ section.settings.video_embed }}
+  </div>
+  
+  <div>
+    {{ section.settings.image_with_text_image }}
+  </div>
+  
+  <div>
+    {{ section.settings.inline }}
+  </div>
+  
+  <div>
+    {{ section.settings.menu }}
+  </div>
+  
+  <div>
+    {{ section.settings.battery_message }}
+  </div>
+  
+  <div>
+    {{ section.settings.message }}
+  </div>
+  
+  <div>
+    {{ section.settings.page }}
+  </div>
+  
+  <div>
+    {{ section.settings.product }}
+  </div>
+  
+  <div>
+    {{ section.settings.product_list }}
+  </div>
+  
+  <div>
+    {{ section.settings.paragraph }}
+  </div>
+  
+  <div>
+    {{ section.settings.button_link }}
+  </div>
+  
+  <div>
+    {{ section.settings.video }}
+  </div>
+  
+  <div>
+    {{ section.settings.product_description_video }}
+  </div>
+  
+  <div>
+    {{ section.settings.enable_payment_button }}
+  </div>
+  
+</div>
+
+{% schema %}
+{
+  "name": "All Inputs",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "article",
+      "id": "article",
+      "label": "Article"
+    },{
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    },{
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },{
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections",
+      "limit": 8
+    },{
+      "type": "color",
+      "id": "body_text",
+      "label": "Body text",
+      "default": "#000000"
+    },{
+      "type": "color_background",
+      "id": "background",
+      "label": "Background",
+      "default": "linear-gradient(#ffffff, #000000)"
+    },{
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "helvetica_n4"
+    },{
+      "type": "html",
+      "id": "video_embed",
+      "label": "Video embed"
+    },{
+      "type": "image_picker",
+      "id": "image_with_text_image",
+      "label": "Image"
+    },{
+      "type": "inline_richtext",
+      "id": "inline",
+      "default": "my <i>inline</i> <b>text</b>",
+      "label": "Inline rich text"
+    },{
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },{
+      "type": "liquid",
+      "id": "battery_message",
+      "label": "Battery message",
+      "default": "{% if product.tags contains 'battery' %}This product can only be shipped by ground.{% else %}This product can be shipped by ground or air.{% endif %}"
+    },{
+      "type": "liquid",
+      "id": "message",
+      "label": "Message",
+      "default": "Hello {{ not_a_real_tag }}, welcome to our shop."
+    },{
+      "type": "page",
+      "id": "page",
+      "label": "Page"
+    },{
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },{
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Products",
+      "limit": 12
+    },{
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph"
+    },{
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },{
+      "type": "video",
+      "id": "video",
+      "label": "A Shopify-hosted video"
+    },{
+      "type": "video_url",
+      "id": "product_description_video",
+      "label": "Product description video",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ]
+    },{
+      "type": "checkbox",
+      "id": "enable_payment_button",
+      "label": "Show dynamic checkout button",
+      "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/online-store/dynamic-checkout)",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "All Input Settings"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
