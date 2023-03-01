@@ -550,6 +550,51 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "b920856d-329e-4d3c-b0e7-10433b7c5ddc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Breeze mode",
+            "heading_size": "h1"
+          }
+        },
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-0",
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-1",
+        "template--17679373533486__b920856d-329e-4d3c-b0e7-10433b7c5ddc-167764961299de951d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group_132374.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -565,6 +610,7 @@
     "7a4231b9-8d90-43da-b3c0-2691d4a5a9a0",
     "de25daed-0156-4293-b27d-2eb0bb3a5f08",
     "dfdce099-9a38-4ea2-a810-618ad74d946b",
-    "056d50a9-6f06-4bb1-8384-5bded89288f1"
+    "056d50a9-6f06-4bb1-8384-5bded89288f1",
+    "b920856d-329e-4d3c-b0e7-10433b7c5ddc"
   ]
 }
